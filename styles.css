@@ -1,0 +1,718 @@
+   *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+@media only screen and (min-width:961px){
+ 
+/* Inicio Estilos Generales */
+
+header {
+    height: 110px;
+    width: 100%;
+    background-color: #808287;
+  }
+  
+  body {
+    background-color: #474a51;
+    flex-wrap: wrap;
+  }
+  
+  p, table, ul, ol, form {
+    color: #f6f6f6;
+    font-family: "PT Sans Narrow", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  button {
+    color: #f6f6f6;
+    background-color: #808287;
+    font-family: "PT Sans Narrow", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  input, textarea, select {
+    font-family: "PT Sans Narrow", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: "PT Sans Narrow", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  footer {
+    background-color: #808287;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: #f6f6f6;
+    font-family: "PT Sans Narrow", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .retorno .retorno1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.retorno .retorno2{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -12px;
+}
+
+.retorno .retorno3{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -12px;
+
+}
+
+.retorno{
+    margin-left: 10px;
+}
+
+
+  .redes:hover, .retorno1:hover, .retorno2:hover, .retorno3:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  button:hover{
+    color: #808287;
+    background-color: #f6f6f6;
+    border: black;
+    border-radius: 10px;
+  }
+  
+  button:active {
+    transform: scale(1.2);
+  }
+  
+  h1:hover, h3:hover{
+      transform: scale(1.1);
+  }
+  
+  /* Fin Estilos Generales */
+  /* Inicio Títulos */
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+  
+  .titulo-index, .titulo-conocenos, .titulo-compranos, .titulo-contactanos {
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+    margin-top: 22px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #f6f6f6;
+    position: absolute;
+  }
+  
+  .slogan-index {
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+    margin-top: 60px;
+    color: #f6f6f6;
+    font-family: "IBM Plex Sans", sans-serif;
+    position: absolute;
+  }
+  
+  .idiomas {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-top: 45px;
+  }
+  
+  .ing, .fra, .por {
+    margin-left: 10px;
+  }
+  
+  .esp:hover, .ing:hover, .fra:hover, .por:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Fin Títulos */
+  /* Inicio Index */
+  .menu {
+    height: 447px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    margin: 50px 1px 1px 20px;
+    line-height: 705px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+  }
+  
+  .li-compranos, .li-contactanos {
+    margin-left: 60px;
+  }
+  
+  .li-compranos {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .pasa-imagenes {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: -455px;
+  }
+  
+  .imagen-central {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 350px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+  }
+  
+  .button-left {
+    height: 25px;
+    width: 25px;
+    margin-left: -135px;
+    margin-top: 200px;
+  }
+  
+  .button-right {
+    height: 25px;
+    width: 25px;
+    margin-top: 200px;
+    margin-right: -615px;
+  }
+  
+
+  .li-compranos:hover, .li-contactanos:hover, .li-conocenos:hover {
+    transform: scale(1.05);
+  }
+
+/* Fin Index */
+/* Inicio Conocenos */
+.menu-conocenos{
+    height: 411px;  
+    
+}
+
+
+.subt-conocenos{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    height: 50px;
+    flex-wrap: wrap;
+    color: #f6f6f6;
+    font-family:'IBM Plex Sans', sans-serif;
+       
+}
+
+.subt-conocenos1{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding-top: 30px;
+    font-family:'IBM Plex Sans', sans-serif;
+    color: #f6f6f6;
+   
+}
+
+.historia{
+    display: flex;
+    justify-content: center;
+}
+
+
+.historia{
+    margin: 1px 15px 1px 15px;
+    font-size: 18px;
+    text-align: justify;
+} 
+
+table{
+margin-top: 20px;
+width: 100%;
+}
+
+.sabores{
+    font-size: 20px;
+
+}
+
+.tipos {
+    text-align: center;
+}
+
+/* Fin Conocenos */
+/* Inicio Compranos */
+
+.menu-compranos{
+    height: 411px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.table1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.table2{
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    margin-top: 230px;
+}
+
+.position2, .position3{
+    padding-left: 320px;
+    
+}
+
+.comprar{
+line-height: 25px;
+text-align: center;
+}
+
+.titulos{
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.gin1, .gin2, .gin3, .gin4, .gin5, .gin6{
+position: absolute;
+}
+
+.gin1{
+    margin-left: -560px;
+    padding-top: 15px;
+}
+
+.gin2{
+    margin-left: -155px;
+    padding-top: 15px;
+}
+
+.gin3{
+    margin-left: 250px;
+    padding-top: 15px;
+}
+
+.gin4{
+    margin-left: -560px;
+    padding-top: 225px;
+}
+
+.gin5{
+    margin-left: -155px;
+    padding-top: 225px;
+}
+
+.gin6{
+    margin-left: 250px;
+    padding-top: 225px;
+}
+
+/* Fin Compranos */
+/* Inicio Contactanos */
+
+.menu-contactanos{
+    height: 411px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+form{
+    line-height: 40px;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.formulario{
+    font-size:20px;
+}
+
+select:hover{
+    transform: scale(1.05);
+    border-color: black;
+    border-radius: 1px;
+    background-color: gray;
+    color: #f6f6f6;
+}
+
+.input-text:hover{
+    transform: scale(1.05);
+    border-color: black;
+    border-radius: 1px;
+    
+}
+
+
+
+}
+
+@media only screen and (min-width:401px) and (max-width:960px){
+
+/* Inicio Estilos Generales */
+
+    header{
+        height: 130px;
+        width: 271%;
+        background-color: #808287;
+    }
+
+    body{
+        background-color: #474a51;
+        flex-wrap: wrap;
+    }
+    
+    p, table, ul, ol, form{
+        color: #f6f6f6;
+        font-family: 'PT Sans Narrow', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    button{
+        color:  #f6f6f6;
+        background-color: #808287 ;
+        font-family: 'PT Sans Narrow', sans-serif;
+        letter-spacing: 1px;
+    }
+    
+   input, textarea, select{
+        font-family: 'PT Sans Narrow', sans-serif;
+        letter-spacing: 1px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #f6f6f6;
+        font-family: 'PT Sans Narrow', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    footer{
+        background-color: #808287;
+        height: 175px;
+        width: 271%;
+        text-align: center;
+        color: #f6f6f6;
+        font-family: 'PT Sans Narrow', sans-serif;
+        letter-spacing: 1px;
+        font-size: 28px;
+
+    }
+    
+    .retorno .retorno1{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .retorno .retorno2{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: -12px;
+    }
+    
+    .retorno .retorno3{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: -12px;
+    
+    }
+    
+    .retorno{
+        margin-left: 10px;
+    }
+
+/* Fin Estilos Generales */
+
+/* Inicio Títulos */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.titulo-index, .titulo-conocenos, .titulo-compranos, .titulo-contactanos{
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+    margin-top: 22px;
+    font-family:'IBM Plex Sans', sans-serif;
+    color: #f6f6f6;
+   position: absolute;
+}
+
+.slogan-index{
+        display: flex;
+        justify-content: center;
+        margin-left: 160px;
+        margin-top: 60px;
+        color: #f6f6f6;
+        font-family:'IBM Plex Sans', sans-serif;
+        position: absolute;
+    }
+
+.idiomas{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-top: 45px;
+}
+
+.ing, .fra, .por{
+    margin-left: 10px;
+}
+
+/* Fin Títulos */
+/* Inicio Index */
+.menu{
+    height: 1238px;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    margin: 520px 1px 1px 725px;
+    line-height: 705px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    position: absolute;
+    font-size: 30px;
+  
+
+}
+
+.li-compranos, .li-contactanos{
+    margin-left: 60px;
+   
+}
+
+.li-compranos{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+}
+
+.pasa-imagenes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 240px;
+    
+    
+}
+
+.imagen-central{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    height: 350px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+  
+}
+
+.button-left{
+    height: 25px;
+    width: 25px;
+    color:  #f6f6f6;
+    background-color: #808287 ;
+    margin-left: -135px;
+    margin-top: 200px;
+}
+
+.button-right{
+    height: 25px;
+    width: 25px;   
+    margin-top: 200px;
+    margin-right: -615px;
+    
+}
+
+/* Fin Index */
+/* Inicio Conocenos */
+.menu-conocenos{
+    height: 411px;  
+    
+}
+
+
+.subt-conocenos{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    height: 50px;
+    flex-wrap: wrap;
+    color: #f6f6f6;
+    font-family:'IBM Plex Sans', sans-serif;
+       
+}
+
+.subt-conocenos1{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding-top: 30px;
+    font-family:'IBM Plex Sans', sans-serif;
+    color: #f6f6f6;
+   
+}
+
+.historia{
+    display: flex;
+    justify-content: center;
+}
+
+
+.historia{
+    margin: 1px 15px 1px 15px;
+    font-size: 18px;
+    text-align: justify;
+} 
+
+table{
+margin-top: 20px;
+width: 100%;
+}
+
+.sabores{
+    font-size: 20px;
+
+}
+
+.tipos {
+    text-align: center;
+}
+
+/* Fin Conocenos */
+/* Inicio Compranos */
+
+.menu-compranos{
+    height: 411px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.table1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.table2{
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    margin-top: 230px;
+}
+
+.position2, .position3{
+    padding-left: 320px;
+    
+}
+
+.comprar{
+line-height: 25px;
+text-align: center;
+}
+
+.titulos{
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.gin1, .gin2, .gin3, .gin4, .gin5, .gin6{
+position: absolute;
+}
+
+.gin1{
+    margin-left: -560px;
+    padding-top: 15px;
+}
+
+.gin2{
+    margin-left: -155px;
+    padding-top: 15px;
+}
+
+.gin3{
+    margin-left: 250px;
+    padding-top: 15px;
+}
+
+.gin4{
+    margin-left: -560px;
+    padding-top: 225px;
+}
+
+.gin5{
+    margin-left: -155px;
+    padding-top: 225px;
+}
+
+.gin6{
+    margin-left: 250px;
+    padding-top: 225px;
+}
+
+/* Fin Compranos */
+/* Inicio Contactanos */
+
+.menu-contactanos{
+    height: 411px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+form{
+    line-height: 40px;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.formulario{
+    font-size:20px;
+}
+
+
+}
