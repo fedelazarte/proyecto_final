@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compranos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
 <body>
     <header class="compranos">
         <div class="logo"><img src="images/gin.png" alt="" width="94" height="92"></div>
-        <div class="titulo-compranos"><h1> <strong>Compranos</strong> </h1></div>
+        <div class="titulo-compranos"><strong>Compranos</strong></div>
         <div class="idiomas">
             <div class="esp"><a href=""><img src="images/españa.png" alt="" width="22px" height="20px"></a></div>
             <div class="ing"><a href=""><img src="images/gb.png" alt="" width="22px" height="20px"></a></div>
@@ -21,78 +22,43 @@
         </div>
     </header>
 
-    <div class="menu-compranos">
-        
-        <table class="table1">
-            <tr class=titulos>
-            <th>Clásico</th>
-            <th class="position2">De la Casa</th>
-            <th class="position3">Purple</th>
-        </tr>
-        <tr class=comprar>
-            <td><em>$1200</em></td>
-            <td class="position2"><em>$1350</em></td>
-            <td class="position3"><em>$1400</em></td>
-        </tr>
-        <tr class=comprar>
-            <td><button>+</button> 1 <button>-</button> </td>
-            <td class="position2"><button>+</button> 1 <button>-</button> </td>
-            <td class="position3"><button>+</button> 1 <button>-</button> </td>
-        </tr>
-        <tr class=comprar>
-            <td><button>Añadir a cesta</button></td>
-            <td class="position2"><button>Añadir a cesta</button></td>
-            <td class="position3"><button>Añadir a cesta</button></td>
-            
-        </tr>
-        </table>
-    
-        <table class=table2>
-        <tr class=titulos>
-            <th>Mint</th>
-            <th class="position2">Ginammon</th>
-            <th class="position3">Cardamomo</th>
-        </tr>
-        <tr class=comprar>
-            <td><em>$1350</em></td>
-            <td class="position2"><em>$1500</em></td>
-            <td class="position3"><em>$1650</em></td>
-        </tr>
-        <tr class=comprar> 
-            <td><button>+</button> 1 <button>-</button> </td>
-            <td class="position2"><button>+</button> 1 <button>-</button> </td>
-            <td class="position3"><button>+</button> 1 <button>-</button> </td>
-        </tr>
-        <tr class=comprar>
-            <td><button>Añadir a cesta</button></td>
-            <td class="position2"><button>Añadir a cesta</button></td>
-            <td class="position3"><button>Añadir a cesta</button></td>
-        </tr>
-        </table>
-    
-    <div class="fotos-productos">
-        <div class="gin1"><img src="images/botella.jpg" alt="" width="106px" height="124px"></div>
-        <div class="gin2"><img src="images/botella.jpg" alt="" width="106px" height="124px"></div>
-        <div class="gin3"><img src="images/botella.jpg" alt="" width="106px" height="124px"></div>
-        <div class="gin4"><img src="images/botella.jpg" alt="" width="106px" height="124px"></div>
-        <div class="gin5"><img src="images/botella.jpg" alt="" width="106px" height="124px"></div>
-        <div class="gin6"><img src="images/botella.jpg" alt="" width="106px" height="124px"></div>
-    </div>
-    
-    
-        
-        </div>
+    <div class="productos-comp">
+        <section class="row d-flex text-center">
+          <div class="col"><img src= images/botella.jpg alt="" height="200" width="200"></div>
+          <div class="col"><th class="product-text1">Clásico</th><br><td class="product-text2"><em>$1200</em></td><br><td class="product-text3"><button class="butt">-</button> 1 <button class="butt">+</button> </td><br><br><td><button class="butt">Añadir a cesta</button></td></div>
+          <div class="col"><img src=images/botella.jpg alt="" width="200" height="200"></div>
+          <div class="col"><th class="product-text1">De la Casa</th><br><td class="product-text2"><em>$1350</em></td><br><td class="product-text3"><button class="butt">-</button> 1 <button class="butt">+</button><br><br><td><button class="butt">Añadir a cesta</button></td> </td></div>
+          <div class="col"><img src=images/botella.jpg alt="" width="200" height="200"></div>
+          <div class="col"><th class="product-text1">Purple</th><br><td class="product-text2"><em>$1400</em></td><br><td class="product-text3"><button class="butt">-</button> 1 <button class="butt">+</button> </td><br><br><td><button class="butt">Añadir a cesta</button></td></div>
+      </section>
+      <br>
+      
+      <section class="row d-flex text-center">
+          <div class="col"><img src=images/botella.jpg alt="" width="200" height="200"></div>
+          <div class="col"><th class="product-text1">Mint</th><br><td class="product-text2"><em>$1350</em></td><br><td class="product-text3"><button class="butt">-</button> 1 <button class="butt">+</button> </td><br><br><td><button class="butt">Añadir a cesta</button></td></div>
+          <div class="col"><img src=images/botella.jpg alt="" width="200" height="200"></div>
+          <div class="col"><th class="product-text1">Ginnamon</th><br><td class="product-text2"><em>$1500</em></td><br><td class="product-text3"><button class="butt">-</button> 1 <button class="butt">+</button> </td><br><br><td><button class="butt">Añadir a cesta</button></td></div>
+          <div class="col "><img src=images/botella.jpg alt="" width="200" height="200"></div>
+          <div class="col"><th class="product-text1">Cardamomo</th><br><td class="product-text2"><em>$1650</em></td><br><td class="product-text3"><button class="butt">-</button> 1 <button class="butt">+</button> </td><br><br><td><button class="butt">Añadir a cesta</button></td></div>
+      </section>
+      </div>
+      </div>
     
     <br><br>
     
     
-    <footer>
+    <footer class= footer-comp>
         <div class="info-pie-pag"><hr> <p>San Miguel de Tucumán, Tucumán - Argentina - Seguinos en nuestras redes sociales <a href="" class="redes">@EntreAmigos</a></p> </div> 
-        <div class="retorno">   <a href="index.html" class="retorno1">Volver a "Principal".</a><br>
-            <a href="Contactanos.html" class="retorno2">Ir a "Contactanos".</a><br>
-            <a href="Conocenos.html" class="retorno3">Ir a "Conocenos".</a>
+        <div class="retorno">   <a href="index.html" class="retorno1">Volver a Principal</a><br>
+            <a href="Contactanos.html" class="retorno2">Ir a Contactanos</a><br>
+            <a href="Conocenos.html" class="retorno3">Ir a Conocenos</a>
         </div>
     </footer>
+
+        <!-- jS Final -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     
     
 </body>
